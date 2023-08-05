@@ -1,0 +1,81 @@
+header {
+    height: 130px;
+    background-image: url("https://kartinki.pibig.info/uploads/posts/2023-04/1680300734_kartinki-pibig-info-p-kosmos-kartinki-krasivie-arti-3.jpg");
+}
+
+header h1 {
+    padding: 20px;
+    text-align: center;
+    color: lightsteelblue;
+}
+
+.menu-item {
+    text-decoration: none;
+    border: 1px solid lightskyblue;
+    background-color: lightskyblue;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.menu-item:hover{
+    background-color: black;
+    color: lightskyblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+main h2 {
+    text-align: center;
+    color: lightsteelblue;
+}
+
+.main-text {
+    background-color: lightsteelblue
+}
+
+.img-center{
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    border: black dashed 5px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+body {
+    background-color:lightyellow;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer {
+    border: 5px double darkslategray;
+}
+
+table {
+    border: 3px solid black;
+    margin:20px;
+    width: 800px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr:first-child{
+    background-color: cornflowerblue;
+}
+
+tr {
+    background-color: white;
+}
